@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>F2P</title>
+</head>
+<body>
+  <div>
+    <h2>Free to Play Games!</h2>
+    <div class="main-container">
+    <div>
+      <label for="search">SEARCH GAMES:</label>
+      <input type="text" id="search" name="search">
+      <button id="search-btn">SEARCH</button>
+    </div>
+  </div>
+    <div class="filter">
+      <label for="genre-select">GENRE:</label>
+      <select id="genre-select">
+        <option value="">All</option>
+        <option value="Action RPG">ACTION RPG</option>
+        <option value="ARPG">ARPG</option>
+        <option value="Battle Royale">BATTLE ROYAL</option>
+        <option value="Card Game">CARD GAME</option>
+        <option value="Fantasy">FANTASY</option>
+        <option value="Fighting">FIGHTING</option>
+        <option value="MMO">MMO</option>
+        <option value="MMORPG">MMORPG</option>
+        <option value="MMOARPG">MMOARPG</option>
+        <option value="MOBA">MOBA</option>
+        <option value="Racing">RACING</option>
+        <option value="RPG">RPG</option>
+        <option value="Strategy">STRATEGY</option>
+        <option value="Shooter">SHOOTER</option>
+        <option value="Sports">SPORTS</option>
+        <option value="Social">SOCIAL</option> 
+      </select>
+      <button id="filter-btn">FILTER</button>
+    </div>
+    <ul id="games">
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
