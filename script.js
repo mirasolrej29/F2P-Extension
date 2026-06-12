@@ -16,7 +16,7 @@ const API_OPTIONS = {
 
 let allGames = [];
 let filteredGames = [];
-
+// =========================
 // =========================
 // DOM ELEMENTS
 // =========================
