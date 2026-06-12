@@ -8,7 +8,7 @@ const API_URL =
 const API_OPTIONS = {
     method: "GET",
     headers: {
-        "X-RapidAPI-Key": "YOUR_API_KEY_HERE",
+        "X-RapidAPI-Key": "03e6f50eefmshfa7a2b3a1a90b5ep16904ajsnbb3e8f9b5889",
         "X-RapidAPI-Host":
             "free-to-play-games-database.p.rapidapi.com"
     }
