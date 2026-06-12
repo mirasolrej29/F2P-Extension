@@ -1,48 +1,203 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>F2P</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F2P Games Store</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
-    <h2>Free to Play Games!</h2>
-    <div class="main-container">
-    <div>
-      <label for="search">SEARCH GAMES:</label>
-      <input type="text" id="search" name="search">
-      <button id="search-btn">SEARCH</button>
+
+<div class="app-container">
+
+    <!-- HERO SECTION -->
+
+    <div class="hero-banner">
+
+        <div class="hero-overlay">
+
+            <span class="hero-badge">
+                FREE TO PLAY DATABASE
+            </span>
+
+            <h1>
+                Discover Amazing Free Games
+            </h1>
+
+            <p>
+                Browse hundreds of free-to-play titles from RPGs, MMOs,
+                Shooters, MOBAs, Racing Games, and more.
+            </p>
+
+        </div>
+
     </div>
-  </div>
-    <div class="filter">
-      <label for="genre-select">GENRE:</label>
-      <select id="genre-select">
-        <option value="">All</option>
-        <option value="Action RPG">ACTION RPG</option>
-        <option value="ARPG">ARPG</option>
-        <option value="Battle Royale">BATTLE ROYAL</option>
-        <option value="Card Game">CARD GAME</option>
-        <option value="Fantasy">FANTASY</option>
-        <option value="Fighting">FIGHTING</option>
-        <option value="MMO">MMO</option>
-        <option value="MMORPG">MMORPG</option>
-        <option value="MMOARPG">MMOARPG</option>
-        <option value="MOBA">MOBA</option>
-        <option value="Racing">RACING</option>
-        <option value="RPG">RPG</option>
-        <option value="Strategy">STRATEGY</option>
-        <option value="Shooter">SHOOTER</option>
-        <option value="Sports">SPORTS</option>
-        <option value="Social">SOCIAL</option> 
-      </select>
-      <button id="filter-btn">FILTER</button>
+
+    <!-- HEADER -->
+
+    <div class="header">
+
+        <div class="logo-area">
+
+            <div class="logo-icon">
+                🎮
+            </div>
+
+            <div>
+
+                <h2>
+                    F2P Games Store
+                </h2>
+
+
+            </div>
+
+        </div>
+
+        <div class="store-stats">
+
+            <div class="stat">
+
+                <strong id="game-count">
+                    0
+                </strong>
+
+                <span>
+                    Games
+                </span>
+
+            </div>
+
+        </div>
+
     </div>
-    <ul id="games">
-    </ul>
-  </div>
-  <script src="script.js"></script>
+
+    <!-- SEARCH -->
+
+    <div class="search-wrapper">
+
+        <div class="search-section">
+
+            <input
+                type="text"
+                id="search"
+                placeholder="Search games..."
+            >
+
+            <button id="search-btn">
+                Search
+            </button>
+
+        </div>
+
+        <div class="filter">
+
+            <select id="genre-select">
+
+                <option value="">
+                    All Genres
+                </option>
+
+                <option value="Action RPG">
+                    Action RPG
+                </option>
+
+                <option value="ARPG">
+                    ARPG
+                </option>
+
+                <option value="Battle Royale">
+                    Battle Royale
+                </option>
+
+                <option value="Card Game">
+                    Card Game
+                </option>
+
+                <option value="Fantasy">
+                    Fantasy
+                </option>
+
+                <option value="Fighting">
+                    Fighting
+                </option>
+
+                <option value="MMO">
+                    MMO
+                </option>
+
+                <option value="MMORPG">
+                    MMORPG
+                </option>
+
+                <option value="MMOARPG">
+                    MMOARPG
+                </option>
+
+                <option value="MOBA">
+                    MOBA
+                </option>
+
+                <option value="Racing">
+                    Racing
+                </option>
+
+                <option value="RPG">
+                    RPG
+                </option>
+
+                <option value="Strategy">
+                    Strategy
+                </option>
+
+                <option value="Shooter">
+                    Shooter
+                </option>
+
+                <option value="Sports">
+                    Sports
+                </option>
+
+                <option value="Social">
+                    Social
+                </option>
+
+            </select>
+
+            <button id="filter-btn">
+                Filter
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- SECTION TITLE -->
+
+    <div class="section-title">
+
+        <h3>
+            Featured Free Games
+        </h3>
+
+        <span>
+            Browse the latest available titles
+        </span>
+
+    </div>
+
+    <!-- GAMES GRID -->
+
+    <ul id="games"></ul>
+
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
+
